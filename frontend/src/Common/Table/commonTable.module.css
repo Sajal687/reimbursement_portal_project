@@ -1,0 +1,56 @@
+.commonTable {
+  margin: 5px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  table-layout: fixed;
+}
+
+.commonTable th,
+.commonTable td {
+  border: 1px solid gray;
+  padding: 8px;
+  text-align: center;
+  color: black;
+  overflow-wrap: break-word;
+  font-size: 13px;
+  padding: 12px;
+}
+
+.commonTable th {
+    background-color: #4d6a6d;
+    color: white;
+    font-size: 16px;
+}
+
+.commonTable tr:nth-child(even) {
+  background-color: #c0bfc7;
+}
+
+.commonTable tr:hover {
+  box-shadow: 2px 2px #bd8d8d !important;
+  border: 2px solid rgb(84, 114, 160);
+}
+
+
+.dataNotFound{
+  color: white;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #e1e0e9;
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  top: 50%;
+  left: 13%;
+}
+
+@media only screen and (max-width : 1000px){
+  .commonTable tr td , .commonTable tr th{
+    font-size: 13px;
+  }
+}

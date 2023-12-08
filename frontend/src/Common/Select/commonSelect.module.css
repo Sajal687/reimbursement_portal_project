@@ -1,0 +1,10 @@
+.selectTag {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.option {
+    padding: 10px;
+}

@@ -1,0 +1,250 @@
+.employeeContainer {
+    padding: 30px 30px;
+    margin: 5px;
+}
+
+.employeeBtn {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.employeeBtn div {
+    text-align: center;
+    border: 1px solid gray;
+    background-color: #ccc;
+    width: 40%;
+    margin: 10px;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.active {
+    background-color: #c53434;
+}
+
+.employeeTable {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.employeeTable thead {
+    padding: 20px;
+    background-color: chocolate;
+    height: 36px;
+    color: aliceblue;
+}
+
+.employeeTable tbody {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.employeeTable tbody td {
+    height: 10px;
+}
+
+
+.card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+.cardHeader {
+    padding: 1rem;
+    text-align: center;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    height: 40%;
+    width: 40%;
+    background-color: #f5e6ab;
+    justify-content: center;
+    position: relative;
+}
+
+.closePopUp {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.cardBody p {
+    text-align: center;
+}
+
+.cardBody select {
+    width: 80%;
+    height: 46px;
+    color: gray;
+    border-radius: 5px;
+    border: 1px dotted;
+}
+
+.errorField {
+    color: red;
+    font-size: 14px;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.empTable {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.assignMngBtn {
+    color: white;
+    background-color: rgb(59, 40, 88);
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 16px;
+    width: 40%;
+}
+
+.cancleAssignManager {
+    color: white;
+    background-color: rgb(59 70 73);
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 16px;
+    width: 40%;
+}
+
+.empBtn {
+    color: white;
+    background-color: rgb(192 191 199);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.mngBtn {
+    color: white;
+    background-color: rgb(192 191 199);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.activeEmpBtn {
+    border: none;
+    cursor: pointer;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(30, 23, 27);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.activeMngBtn {
+    color: rgb(102, 66, 66);
+    background-color: rgb(225, 224, 233);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(30, 23, 27);
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.assignActionBtn {
+    color: rgb(225, 224, 233);
+    background-color: rgb(59, 40, 88);
+    padding: 6px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.assignManagerSelect {
+    width: 100%;
+    font-size: 15px;
+    height: 40px;
+    margin: 3px;
+}
+
+.actionBtns {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 12px;
+}
+
+@media only screen and (max-width: 750px) {
+    .assignActionBtn {
+        padding: 5px 5px;
+    }
+}

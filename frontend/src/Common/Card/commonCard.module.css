@@ -1,0 +1,271 @@
+.card {
+  background-color: rgb(238 236 253);
+  display: flex;
+  flex-direction: column;
+  margin: 4px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 11px;
+  width: 100%;
+  box-shadow: 5px 7px 11px rgb(0 0 0 / 20%);
+}
+
+.card:hover {
+  background-color: white;
+}
+
+.cardHeader {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.cardTitle {
+  color: #594081;
+  font-weight: bold;
+}
+
+.cardBody {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+
+.row {
+  margin-bottom: 10px;
+  width: 100%;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardText {
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  color: #7f5757;
+  font-weight: 600;
+}
+
+.cardValue {
+  font-weight: 100;
+  color: darkcyan;
+  font-size: 15px;
+}
+
+.btngrp {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+.btnRow {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.btnCol {
+  width: 100%;
+  text-align: center;
+
+}
+
+.btn {
+  flex-basis: calc(50% - 5px);
+}
+
+.popUpBody {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.closePopUp {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.errorField {
+  display: flex;
+  color: red;
+  padding-left: 7px;
+  font-size: 17px;
+}
+
+
+.btns {
+  display: flex;
+}
+
+.commentTextarea {
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+.rejectCommentLabel {
+  display: block;
+  font-weight: bold;
+  text-align: left;
+  color: black;
+}
+
+.commentValue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 89%;
+  margin: auto;
+  padding: 10px;
+  height: 100px;
+  overflow-x: auto;
+}
+
+.modalRejectBtn {
+  color: white;
+  background-color: rgb(68, 53, 91);
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.viewMoreButton {
+  color: #3838ff;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+@media (min-width: 768px) {
+
+  .half_col,
+  .full_col {
+    width: 44%;
+    display: flex;
+    text-align: left;
+  }
+}
+
+.halfCol,
+.fullCol {
+  width: 44%;
+  display: flex;
+  text-align: left;
+}
+
+.mandatoryField {
+  color: red;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.acceptBtn {
+  color: rgb(225, 224, 233);
+  background-color: rgb(0, 94, 124);
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 44%;
+}
+
+.rejectBtn {
+  color: rgb(225, 224, 233);
+  background-color: rgb(119, 16, 16);
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 44%;
+}
+
+.invoiceBtn {
+  color: rgb(225, 224, 233);
+  background-color: rgb(59, 40, 88);
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 44%;
+}
+
+.actionBtns {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 12px;
+}
+
+
+.approvedBtn {
+  background-color: #05a705;
+  padding: 10px 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: px;
+  margin-left: 10px;
+  margin: auto;
+  margin-top: 12px;
+  width: 40%;
+  color: white;
+}
+
+.approvedCancleBtn {
+  background-color: rgb(59 70 73);
+  padding: 10px 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: px;
+  margin-left: 10px;
+  margin: auto;
+  margin-top: 12px;
+  width: 40%;
+  color: white;
+}
+
+.commentLen{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url('/public/assets/background_image/bg16.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.registrationContainer {
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    max-width: 100vw;
+}
+
+.registrationForm {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 60%;
+    background-color: #fff9f9cc;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 1px 2px 2px 2px rgba(23, 53, 45, 0.4);
+}
+
+.registrationField {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px 0px 5px;
+}
+
+.registrationField label {
+    color: black;
+    text-align: right;
+    padding-right: 20px;
+    margin: auto;
+    width: 31%;
+}
+
+.registrationField input {
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    color: #635e5e;
+}
+
+.registrationField select {
+    width: 65%;
+    padding: 10px;
+    color: #635e5e;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    color: #635e5e;
+    margin: 2px;
+}
+
+.registrationField select option {
+    font-size: 14px;
+    padding: 14px;
+}
+
+.errorField {
+    color: red;
+    font-size: 14px;
+    padding: 0px 7px 7px 7px;
+    margin-bottom: 6px;
+    margin-left: 30%;
+}
+
+.mandatoryField {
+    color: red;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.registerationHeader {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.registerationBtn {
+    color: white;
+    background-color: rgb(68, 53, 91);
+    margin-top: 15px;
+    padding: 7px 7px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    font-size: 22px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.inputValue {
+    padding: 10px;
+    margin: 6px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 70%;
+    color: #635e5e;
+}
+
+.signUp{
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    margin: auto;
+}
+
+.signUp a{
+    color: blue;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 900px) {
+    .registrationForm {
+        width: 100%;
+    }
+}

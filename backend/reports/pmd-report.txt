@@ -1,0 +1,61 @@
+src/main/java/com/project/reimburse/ReimbursementPortalApplication.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/project/reimburse/ReimbursementPortalApplication.java:7:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/com/project/reimburse/ReimbursementPortalApplication.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/project/reimburse/ReimbursementPortalApplication.java:9:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/project/reimburse/dtos/DepartmentDto.java:3:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/project/reimburse/dtos/DepartmentDto.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/project/reimburse/dtos/ReimburseRequestDto.java:3:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/project/reimburse/dtos/ReimburseRequestDto.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/project/reimburse/dtos/UserDto.java:17:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/project/reimburse/dtos/UserDto.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/dtos/UserDto.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/dtos/UserDto.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/dtos/UserDto.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/dtos/UserDto.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/dtos/UserDto.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/dtos/UserDto.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/dtos/UserDto.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/Department.java:24:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/project/reimburse/entities/Department.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/Department.java:27:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/project/reimburse/entities/Department.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/Department.java:33:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/ReimburseRequest.java:25:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/project/reimburse/entities/ReimburseRequest.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/ReimburseRequest.java:28:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/project/reimburse/entities/ReimburseRequest.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/ReimburseRequest.java:30:	FieldNamingConventions:	FieldNamingConventions: The field name 'expense_type' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/project/reimburse/entities/ReimburseRequest.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/ReimburseRequest.java:37:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/ReimburseRequest.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/ReimburseRequest.java:41:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/ReimburseRequest.java:43:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/ReimburseRequest.java:45:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/ReimburseRequest.java:48:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/User.java:28:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/project/reimburse/entities/User.java:28:	ShortClassName:	ShortClassName: Avoid short class names like User
+src/main/java/com/project/reimburse/entities/User.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/User.java:32:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/project/reimburse/entities/User.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/User.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/User.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/User.java:41:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/User.java:45:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/User.java:48:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/User.java:50:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/User.java:53:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/User.java:56:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/entities/User.java:59:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/project/reimburse/repositories/DepartmentRepo.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/project/reimburse/repositories/ReimburseRequestRepo.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/project/reimburse/repositories/UserRepo.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/project/reimburse/services/DepartmentService.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/project/reimburse/services/ReimburseRequest.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/project/reimburse/services/UserService.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/project/reimburse/services/impl/DepartmentServiceImpl.java:5:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.project.reimburse.services.DepartmentService'
+src/main/java/com/project/reimburse/services/impl/DepartmentServiceImpl.java:8:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/project/reimburse/services/impl/DepartmentServiceImpl.java:8:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/project/reimburse/ReimbursementPortalApplicationTests.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/project/reimburse/ReimbursementPortalApplicationTests.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/project/reimburse/ReimbursementPortalApplicationTests.java:10:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/project/reimburse/ReimbursementPortalApplicationTests.java:10:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body

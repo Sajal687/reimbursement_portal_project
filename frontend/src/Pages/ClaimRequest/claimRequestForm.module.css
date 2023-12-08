@@ -1,0 +1,165 @@
+.container{
+  background-color: #e1e0e9;
+}
+
+.claimRequestContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.heading{
+  color: rgb(31 25 75);
+  font-weight: 800;
+  font-size: 27px;
+  padding-left: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.claimForm {
+    width: 45%;
+    padding: 20px;
+  }
+  
+  
+  .formField {
+    margin-bottom: 1px;
+    margin-top: 10px;
+  }
+
+  .documentUploadLabel{
+    margin-top: 0;
+    display: block;
+    font-weight: bold;
+    padding-left: 1px;
+    text-align: left;
+    color: #454141;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    padding-left: 2px;
+    text-align: left;
+    color: #454141;
+    margin-top: 20px;
+  }
+  
+  .claimInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .fileUpload {
+    width: 45%;
+    padding: 20px;
+    height: 66vh;
+    padding-top: 0px;
+  }
+  
+  .fileUpload h2 {
+    margin-bottom: 20px;
+    color: darkcyan;
+  }
+  
+  .previewImage {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .previewImage img {
+    max-width: 100%;
+    max-height: 300px;
+  }
+  
+  .inputFileLabel {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .inputFile {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin-bottom: 8px;
+    
+  }
+
+  .submitButton{
+    margin-top: 33px;
+    color: white;
+    background-color: rgb(68, 53, 91);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 51%;
+  }
+
+.errorFieldClaim {
+  color: #ff0000;
+  font-size: 14px;
+  margin-bottom: 3px;
+  text-align: left;
+  display: block;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.mandatoryField{
+  color: red;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.claimLimitBox{
+  display: flex;
+  background: #ffffff;
+}
+
+.claimAmountBox{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 17px;
+  background: #ffffff;
+  border: none;
+  width: 80%;
+}
+
+.claimAmountBox :hover{
+  border: none;
+}
+
+.limit{
+  margin: auto;
+  color: gray;
+}
+
+.commentLen{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+  

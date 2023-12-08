@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.avatar {
+  font-size: 43px;
+  margin: 16px 0px 17px 0px;
+  color: #4d6a6d;
+  text-align: center;
+}
+
+.avatarIcon{
+  stroke: white;
+  stroke-width: 20px;
+}
+
+.sidebar {
+  position: fixed;
+  width: 250px;
+  top: 0;
+  height: 100vh;
+  z-index: 100;
+  background-color: #c0bfc7;
+  overflow: hidden;
+  transition: width 0.3s ease;
+  box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.4);
+  border-right:1px dotted white;
+}
+
+.nav {
+  list-style-type: none;
+  padding-top: 20px;
+}
+
+.navItems:hover {
+  background-color: white;
+  color: black;
+}
+
+.navItems a {
+  display: block;
+  padding: 18px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.navItems a:hover {
+  color: #44355B;
+}
+
+.navItems svg {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+.navItems svg:hover {
+  color: rgb(59, 40, 88);;
+}
+
+.heading {
+  text-align: center;
+  font-weight: 500;
+  font-size: 23px;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.logoutBtn {
+  width: 100%;
+  color: white;
+  background-color: #4d6a6d;
+  text-align: right;
+  height: 40px;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  cursor: pointer;
+  border-top: 2px dotted white;
+}
+
+.bottom{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.logoutBtn span {
+  margin-left: 7px;
+  font-size: 1.2rem;
+}
+
+.main {
+  min-height: 100vh;
+  flex-grow: 1;
+  padding: 20px;
+  background-color: whitesmoke;
+  margin-left: 250px;
+  transition: margin-left 0.3s ease;
+  background: #dcf9db;
+  background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url('/public/assets/background_image/ag2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.activeLink {
+  background-color: #4d6a6d;
+  color: white;
+  border-radius: 1px;
+}
+
+.activeLink a {
+  display: block;
+  padding: 12px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.activeLink svg {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+.portalName{
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+}
+
+.userRole{
+  font-size: 18px;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+}
+
+
+
+@media (max-width: 810px) {
+  .sidebar {
+    width: 170px;
+  }
+
+  .navItems a {
+    padding: 10px;
+  }
+
+  .heading {
+    font-size: 1.4rem;
+  }
+
+  .main {
+    margin-left: 170px;
+  }
+}

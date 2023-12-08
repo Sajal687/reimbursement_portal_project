@@ -1,0 +1,382 @@
+.reimburseCategory {
+  max-width: 600px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.categoryForm {
+  width: 40%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: baseline;
+}
+
+.categoryForm input {
+  margin: 5px;
+  padding: 5px;
+  font-size: large;
+}
+
+.categoryForm button {
+  background-color: #6ac56e;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  padding: 10px 20px;
+}
+
+.categoryList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.category {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: left;
+}
+
+.plusIcon {
+  height: 41px;
+  width: 55px;
+  color: white;
+}
+
+
+.showPopup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 400px;
+  background: #f5f9f9;
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.showPopup div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  opacity: 1;
+}
+
+
+.closePopup {
+  display: none;
+}
+
+.bodyOpacity {
+  opacity: 0.2;
+}
+
+
+.errorField {
+  color: red;
+    font-size: 14px;
+    margin-bottom: 3px;
+    text-align: left;
+    display: block;
+    width: 100%;
+    padding-left: 4px;
+}
+
+.mandatoryField{
+  color: red;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+
+.categoryTable {
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.categoryTable thead {
+  padding: 20px;
+  background-color: chocolate;
+  height: 36px;
+  color: aliceblue;
+}
+
+.categoryTable tbody {
+  background-color: aliceblue;
+  text-align: center;
+  padding: 10px;
+}
+
+.categoryTable tbody td {
+  height: 10px;
+}
+
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.popup h2 {
+  margin-bottom: 10px;
+}
+
+.popupButtons {
+  margin-top: 20px;
+}
+
+.popup button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.popup button:first-child {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.popup button:last-child {
+  background-color: #ccc;
+  color: #000;
+}
+
+.popup button:hover {
+  opacity: 0.8;
+}
+
+
+.card {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cardBody label{
+  text-align: left;
+  width: 100%;
+  color: black;
+  margin-bottom: 2px;
+}
+
+.inputField{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 100%;
+}
+
+
+.closePopUp{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+.categoryAddBtn{
+  color: white;
+  background-color: rgb(59, 40, 88);
+  padding: 5px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.inputStyle{
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #595454;
+}
+
+.categoryTitle{
+  color: black;
+  font-weight: 800;
+  font-size: 29px;
+  
+}
+
+.addCategoryBtn{
+  color: rgb(225, 224, 233);
+  background-color: rgb(59, 40, 88);
+  padding: 10px 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.btnContent{
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.iconStyle{
+  width: 20px;
+  height: 20px;
+  color: white;
+  align-items: center;
+}
+
+.plusIconStyle{
+  width: 100%;
+  height: 100%;
+}
+
+.deleteIconStyle{
+  font-size: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.deleteIconBtn{
+  color: white;
+    background-color: rgb(167, 25, 25);
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 4px 11px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    margin: auto;
+}
+
+
+.actionBtns{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 12px;
+}
+
+
+.addCategoryDeleteBtn{
+  background-color: rgb(167, 25, 25);
+  padding: 10px 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: px;
+  margin-left: 10px;
+  margin: auto;
+  margin-top: 12px;
+  width: 40%;
+  color: white;
+}
+
+.addCategoryCancleBtn{
+  background-color: rgb(59 70 73);
+  padding: 10px 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: px;
+  margin-left: 10px;
+  margin: auto;
+  margin-top: 12px;
+  width: 40%;
+  color: white;
+}
+
+.modelText{
+  font-size: 19px;
+  color: black;
+}
+
+.alertIcon{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.alertIconStyle{
+  width: 60px;
+  height: 60px;
+  color: #ffffff;
+  margin-bottom: 14px;
+}

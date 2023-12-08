@@ -1,0 +1,192 @@
+.viewContainer {
+  text-align: center;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modalContent {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.closeButton {
+  margin-top: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.imgPopUp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: auto;
+}
+
+.imgPopUpBody {
+  padding: 1rem;
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 9px;
+  height: 40%;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.emptyMsg {
+  font-size: 30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  color: black;
+}
+
+.slider {
+  margin-bottom: 20px;
+}
+
+
+.allBtn {
+  color: white;
+  background-color: rgb(192 191 199);
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 20px;
+  width: 24%;
+}
+
+.pendingBtn {
+  color: white;
+  background-color: rgb(192 191 199);
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  width: 24%;
+}
+
+.approvedBtn {
+  color: white;
+  background-color: rgb(192 191 199);
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  width: 24%;
+}
+
+.rejectedBtn {
+  color: white;
+  background-color: rgb(192 191 199);
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 20px;
+  width: 24%;
+}
+
+.activeAllBtn {
+  color: white;
+  background-color: rgb(192 191 199);
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 20px;
+  width: 24%;
+  color: white;
+  background-color: rgb(0, 75, 145);
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 20px;
+  width: 24%;
+  font-weight: 600;
+}
+
+.activePendingBtn {
+  color: white;
+  background-color: rgb(192 191 199);
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  width: 24%;
+  color: white;
+  background-color: rgba(149, 149, 16, 0.96);
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  width: 24%;
+  font-weight: 600;
+}
+
+.activeApprovedBtn {
+  color: white;
+  background-color: rgb(192 191 199);
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  width: 24%;
+  color: white;
+  background-color: rgb(18, 82, 18);
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  width: 24%;
+  font-weight: 600;
+}
+
+.activeRejectedBtn {
+  color: white;
+  background-color: rgb(192 191 199);
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 20px;
+  width: 24%;
+  color: white;
+  background-color: rgb(119, 16, 16);
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 20px;
+  width: 24%;
+  font-weight: 600;
+}
